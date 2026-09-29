@@ -1,0 +1,6 @@
+{
+  "name": "DeadlineGuard AI",
+  "description": "Never Miss a Deadline. Intelligent deadline, task priority, and AI study session management for college students.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

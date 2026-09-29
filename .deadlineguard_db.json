@@ -1,0 +1,473 @@
+{
+  "users": [
+    {
+      "id": "user-vignesh",
+      "name": "Vignesh",
+      "email": "vs2513@srmist.edu.in",
+      "passwordHash": "$2b$10$8zQaJDNTgDclpahB.Jwdyua5Vs5dmLVk5gbrvcGeke0muGJ/j3bvu",
+      "reminderOffsetHours": 24,
+      "createdAt": "2026-09-15T04:36:24.186Z",
+      "updatedAt": "2026-09-29T04:36:24.186Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "subj-os",
+      "userId": "user-vignesh",
+      "name": "Operating Systems",
+      "code": "CS201",
+      "facultyName": "Dr. K. Ramanathan",
+      "academicWeight": 5,
+      "color": "#4f46e5",
+      "icon": "Cpu",
+      "createdAt": "2026-09-17T04:36:24.186Z",
+      "updatedAt": "2026-09-29T04:36:24.186Z"
+    },
+    {
+      "id": "subj-co",
+      "userId": "user-vignesh",
+      "name": "Computer Organization",
+      "code": "CS202",
+      "facultyName": "Prof. Ananya Sen",
+      "academicWeight": 4,
+      "color": "#0d9488",
+      "icon": "Binary",
+      "createdAt": "2026-09-17T04:36:24.186Z",
+      "updatedAt": "2026-09-29T04:36:24.186Z"
+    },
+    {
+      "id": "subj-java",
+      "userId": "user-vignesh",
+      "name": "Java Programming",
+      "code": "CS203",
+      "facultyName": "Dr. M. Sridhar",
+      "academicWeight": 4,
+      "color": "#ea580c",
+      "icon": "Code2",
+      "createdAt": "2026-09-17T04:36:24.186Z",
+      "updatedAt": "2026-09-29T04:36:24.186Z"
+    },
+    {
+      "id": "subj-math",
+      "userId": "user-vignesh",
+      "name": "Discrete Mathematics",
+      "code": "MA201",
+      "facultyName": "Dr. P. Venkatesh",
+      "academicWeight": 5,
+      "color": "#7c3aed",
+      "icon": "Calculator",
+      "createdAt": "2026-09-17T04:36:24.186Z",
+      "updatedAt": "2026-09-29T04:36:24.186Z"
+    },
+    {
+      "id": "subj-sec",
+      "userId": "user-vignesh",
+      "name": "Cyber Security",
+      "code": "CS205",
+      "facultyName": "Prof. R. Meenakshi",
+      "academicWeight": 3,
+      "color": "#e11d48",
+      "icon": "ShieldCheck",
+      "createdAt": "2026-09-17T04:36:24.186Z",
+      "updatedAt": "2026-09-29T04:36:24.186Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task-1",
+      "userId": "user-vignesh",
+      "subjectId": "subj-os",
+      "title": "OS Process Synchronization Assignment",
+      "description": "Implement Peterson’s Algorithm, Semaphores and Producer-Consumer problem in C with mutex locks.",
+      "taskType": "Assignment",
+      "deadline": "2026-09-29T22:36:24.186Z",
+      "estimatedEffortHours": 4,
+      "difficulty": 4,
+      "academicWeight": 5,
+      "status": "In Progress",
+      "notes": "Remember to verify deadlock prevention test cases.",
+      "createdAt": "2026-09-26T04:36:24.186Z",
+      "updatedAt": "2026-09-29T04:36:24.186Z",
+      "priority": {
+        "id": "prio-task-1",
+        "taskId": "task-1",
+        "priorityScore": 85,
+        "priorityLevel": "Critical",
+        "urgencyScore": 88,
+        "difficultyScore": 80,
+        "weightScore": 100,
+        "effortScore": 65,
+        "workloadScore": 75,
+        "reasons": [
+          "Deadline is tomorrow (in ~18h). Highly pressing.",
+          "Difficulty is rated high (4/5), requiring deep cognitive focus.",
+          "Academic credit weight is high (5/5), strongly affecting GPA.",
+          "Estimated effort is 4 hour(s).",
+          "High cluster workload: 1 other deadline(s) due around the same time."
+        ],
+        "calculatedAt": "2026-09-29T04:36:24.186Z"
+      }
+    },
+    {
+      "id": "task-2",
+      "userId": "user-vignesh",
+      "subjectId": "subj-java",
+      "title": "Java Inheritance & Polymorphism Lab",
+      "description": "Complete Lab Sheet 4 on abstract classes, interface inheritance, and dynamic method dispatch.",
+      "taskType": "Lab",
+      "deadline": "2026-09-30T22:36:24.186Z",
+      "estimatedEffortHours": 3,
+      "difficulty": 3,
+      "academicWeight": 4,
+      "status": "Pending",
+      "notes": "Prepare GitHub repo link before submission portal closes.",
+      "createdAt": "2026-09-27T04:36:24.186Z",
+      "updatedAt": "2026-09-29T04:36:24.186Z",
+      "priority": {
+        "id": "prio-task-2",
+        "taskId": "task-2",
+        "priorityScore": 71,
+        "priorityLevel": "High",
+        "urgencyScore": 72,
+        "difficultyScore": 60,
+        "weightScore": 80,
+        "effortScore": 65,
+        "workloadScore": 75,
+        "reasons": [
+          "Deadline is within 2 days (42h remaining).",
+          "Moderate complexity (3/5).",
+          "Academic credit weight is high (4/5), strongly affecting GPA.",
+          "Estimated effort is 3 hour(s).",
+          "High cluster workload: 2 other deadline(s) due around the same time."
+        ],
+        "calculatedAt": "2026-09-29T04:36:24.186Z"
+      }
+    },
+    {
+      "id": "task-3",
+      "userId": "user-vignesh",
+      "subjectId": "subj-co",
+      "title": "Computer Organization Number Conversion Assignment",
+      "description": "IEEE 754 floating point conversions, 2s complement arithmetic and Booth’s multiplication algorithm.",
+      "taskType": "Assignment",
+      "deadline": "2026-10-02T08:36:24.186Z",
+      "estimatedEffortHours": 2.5,
+      "difficulty": 3,
+      "academicWeight": 4,
+      "status": "Pending",
+      "notes": "Show step-by-step bit shift arithmetic in hand-written report.",
+      "createdAt": "2026-09-28T04:36:24.186Z",
+      "updatedAt": "2026-09-29T04:36:24.186Z",
+      "priority": {
+        "id": "prio-task-3",
+        "taskId": "task-3",
+        "priorityScore": 54,
+        "priorityLevel": "Medium",
+        "urgencyScore": 35,
+        "difficultyScore": 60,
+        "weightScore": 80,
+        "effortScore": 45,
+        "workloadScore": 75,
+        "reasons": [
+          "Due this week (3 days away).",
+          "Moderate complexity (3/5).",
+          "Academic credit weight is high (4/5), strongly affecting GPA.",
+          "Estimated effort is 2.5 hour(s).",
+          "High cluster workload: 2 other deadline(s) due around the same time."
+        ],
+        "calculatedAt": "2026-09-29T04:36:24.186Z"
+      }
+    },
+    {
+      "id": "task-4",
+      "userId": "user-vignesh",
+      "subjectId": "subj-math",
+      "title": "Graph Theory & Relations Midterm Quiz",
+      "description": "Review Euler and Hamiltonian circuits, planar graph Kuratowski theorem, and equivalence relations.",
+      "taskType": "Quiz",
+      "deadline": "2026-10-04T04:36:24.186Z",
+      "estimatedEffortHours": 5,
+      "difficulty": 5,
+      "academicWeight": 5,
+      "status": "Pending",
+      "notes": "Practice question bank chapters 6-8.",
+      "createdAt": "2026-09-25T04:36:24.186Z",
+      "updatedAt": "2026-09-29T04:36:24.186Z",
+      "priority": {
+        "id": "prio-task-4",
+        "taskId": "task-4",
+        "priorityScore": 70,
+        "priorityLevel": "High",
+        "urgencyScore": 35,
+        "difficultyScore": 100,
+        "weightScore": 100,
+        "effortScore": 85,
+        "workloadScore": 75,
+        "reasons": [
+          "Due this week (5 days away).",
+          "Difficulty is rated high (5/5), requiring deep cognitive focus.",
+          "Academic credit weight is high (5/5), strongly affecting GPA.",
+          "Estimated effort is 5 hour(s).",
+          "High cluster workload: 1 other deadline(s) due around the same time."
+        ],
+        "calculatedAt": "2026-09-29T04:36:24.186Z"
+      }
+    },
+    {
+      "id": "task-5",
+      "userId": "user-vignesh",
+      "subjectId": "subj-sec",
+      "title": "Cyber Security Seminar Presentation",
+      "description": "Prepare a 15-minute slide deck on Zero Trust Architecture and Ransomware attack vectors.",
+      "taskType": "Presentation",
+      "deadline": "2026-10-06T16:36:24.186Z",
+      "estimatedEffortHours": 6,
+      "difficulty": 3,
+      "academicWeight": 3,
+      "status": "Pending",
+      "notes": "Include recent 2026 enterprise breach case study.",
+      "createdAt": "2026-09-24T04:36:24.186Z",
+      "updatedAt": "2026-09-29T04:36:24.186Z",
+      "priority": {
+        "id": "prio-task-5",
+        "taskId": "task-5",
+        "priorityScore": 46,
+        "priorityLevel": "Medium",
+        "urgencyScore": 15,
+        "difficultyScore": 60,
+        "weightScore": 60,
+        "effortScore": 85,
+        "workloadScore": 75,
+        "reasons": [
+          "Due in more than a week (8 days away).",
+          "Moderate complexity (3/5).",
+          "Standard course credit weight (3/5).",
+          "Estimated effort is 6 hour(s).",
+          "Manageable workload (4 other pending tasks)."
+        ],
+        "calculatedAt": "2026-09-29T04:36:24.186Z"
+      }
+    },
+    {
+      "id": "task-6",
+      "userId": "user-vignesh",
+      "subjectId": "subj-os",
+      "title": "Linux Shell Scripting Mini Project",
+      "description": "Automated disk backup and system health monitoring daemon using Bash.",
+      "taskType": "Project",
+      "deadline": "2026-09-28T04:36:24.186Z",
+      "estimatedEffortHours": 4,
+      "difficulty": 3,
+      "academicWeight": 4,
+      "status": "Completed",
+      "completedAt": "2026-09-28T16:36:24.186Z",
+      "notes": "Completed with full automated test suite.",
+      "createdAt": "2026-09-21T04:36:24.186Z",
+      "updatedAt": "2026-09-29T04:36:24.186Z",
+      "priority": {
+        "id": "prio-task-6",
+        "taskId": "task-6",
+        "priorityScore": 82,
+        "priorityLevel": "Critical",
+        "urgencyScore": 100,
+        "difficultyScore": 60,
+        "weightScore": 80,
+        "effortScore": 65,
+        "workloadScore": 75,
+        "reasons": [
+          "OVERDUE by 24 hour(s)! Urgent attention needed.",
+          "Moderate complexity (3/5).",
+          "Academic credit weight is high (4/5), strongly affecting GPA.",
+          "Estimated effort is 4 hour(s).",
+          "High cluster workload: 1 other deadline(s) due around the same time."
+        ],
+        "calculatedAt": "2026-09-29T04:36:24.186Z"
+      }
+    }
+  ],
+  "taskPriorities": {
+    "task-1": {
+      "id": "prio-task-1",
+      "taskId": "task-1",
+      "priorityScore": 85,
+      "priorityLevel": "Critical",
+      "urgencyScore": 88,
+      "difficultyScore": 80,
+      "weightScore": 100,
+      "effortScore": 65,
+      "workloadScore": 75,
+      "reasons": [
+        "Deadline is tomorrow (in ~18h). Highly pressing.",
+        "Difficulty is rated high (4/5), requiring deep cognitive focus.",
+        "Academic credit weight is high (5/5), strongly affecting GPA.",
+        "Estimated effort is 4 hour(s).",
+        "High cluster workload: 1 other deadline(s) due around the same time."
+      ],
+      "calculatedAt": "2026-09-29T04:36:24.186Z"
+    },
+    "task-2": {
+      "id": "prio-task-2",
+      "taskId": "task-2",
+      "priorityScore": 71,
+      "priorityLevel": "High",
+      "urgencyScore": 72,
+      "difficultyScore": 60,
+      "weightScore": 80,
+      "effortScore": 65,
+      "workloadScore": 75,
+      "reasons": [
+        "Deadline is within 2 days (42h remaining).",
+        "Moderate complexity (3/5).",
+        "Academic credit weight is high (4/5), strongly affecting GPA.",
+        "Estimated effort is 3 hour(s).",
+        "High cluster workload: 2 other deadline(s) due around the same time."
+      ],
+      "calculatedAt": "2026-09-29T04:36:24.186Z"
+    },
+    "task-3": {
+      "id": "prio-task-3",
+      "taskId": "task-3",
+      "priorityScore": 54,
+      "priorityLevel": "Medium",
+      "urgencyScore": 35,
+      "difficultyScore": 60,
+      "weightScore": 80,
+      "effortScore": 45,
+      "workloadScore": 75,
+      "reasons": [
+        "Due this week (3 days away).",
+        "Moderate complexity (3/5).",
+        "Academic credit weight is high (4/5), strongly affecting GPA.",
+        "Estimated effort is 2.5 hour(s).",
+        "High cluster workload: 2 other deadline(s) due around the same time."
+      ],
+      "calculatedAt": "2026-09-29T04:36:24.186Z"
+    },
+    "task-4": {
+      "id": "prio-task-4",
+      "taskId": "task-4",
+      "priorityScore": 70,
+      "priorityLevel": "High",
+      "urgencyScore": 35,
+      "difficultyScore": 100,
+      "weightScore": 100,
+      "effortScore": 85,
+      "workloadScore": 75,
+      "reasons": [
+        "Due this week (5 days away).",
+        "Difficulty is rated high (5/5), requiring deep cognitive focus.",
+        "Academic credit weight is high (5/5), strongly affecting GPA.",
+        "Estimated effort is 5 hour(s).",
+        "High cluster workload: 1 other deadline(s) due around the same time."
+      ],
+      "calculatedAt": "2026-09-29T04:36:24.186Z"
+    },
+    "task-5": {
+      "id": "prio-task-5",
+      "taskId": "task-5",
+      "priorityScore": 46,
+      "priorityLevel": "Medium",
+      "urgencyScore": 15,
+      "difficultyScore": 60,
+      "weightScore": 60,
+      "effortScore": 85,
+      "workloadScore": 75,
+      "reasons": [
+        "Due in more than a week (8 days away).",
+        "Moderate complexity (3/5).",
+        "Standard course credit weight (3/5).",
+        "Estimated effort is 6 hour(s).",
+        "Manageable workload (4 other pending tasks)."
+      ],
+      "calculatedAt": "2026-09-29T04:36:24.186Z"
+    },
+    "task-6": {
+      "id": "prio-task-6",
+      "taskId": "task-6",
+      "priorityScore": 82,
+      "priorityLevel": "Critical",
+      "urgencyScore": 100,
+      "difficultyScore": 60,
+      "weightScore": 80,
+      "effortScore": 65,
+      "workloadScore": 75,
+      "reasons": [
+        "OVERDUE by 24 hour(s)! Urgent attention needed.",
+        "Moderate complexity (3/5).",
+        "Academic credit weight is high (4/5), strongly affecting GPA.",
+        "Estimated effort is 4 hour(s).",
+        "High cluster workload: 1 other deadline(s) due around the same time."
+      ],
+      "calculatedAt": "2026-09-29T04:36:24.186Z"
+    }
+  },
+  "studySessions": [
+    {
+      "id": "sess-1",
+      "userId": "user-vignesh",
+      "taskId": "task-1",
+      "durationMinutes": 50,
+      "plannedMinutes": 50,
+      "completed": true,
+      "notes": "Solved Peterson algorithm lock mechanism.",
+      "createdAt": "2026-09-28T23:36:24.186Z"
+    },
+    {
+      "id": "sess-2",
+      "userId": "user-vignesh",
+      "taskId": "task-2",
+      "durationMinutes": 25,
+      "plannedMinutes": 25,
+      "completed": true,
+      "notes": "Setup Java class hierarchies.",
+      "createdAt": "2026-09-28T00:36:24.186Z"
+    },
+    {
+      "id": "sess-3",
+      "userId": "user-vignesh",
+      "taskId": "task-6",
+      "durationMinutes": 75,
+      "plannedMinutes": 50,
+      "completed": true,
+      "notes": "Finalized Bash cron testing.",
+      "createdAt": "2026-09-28T14:36:24.186Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1",
+      "userId": "user-vignesh",
+      "taskId": "task-1",
+      "title": "Deadline Approaching!",
+      "message": "OS Process Synchronization Assignment is due in 18 hours. Priority is Critical (Score: 88).",
+      "type": "deadline",
+      "read": false,
+      "scheduledFor": "2026-09-29T03:36:24.186Z",
+      "createdAt": "2026-09-29T03:36:24.186Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "user-vignesh",
+      "taskId": "task-2",
+      "title": "Study Session Recommended",
+      "message": "Plan a 50-minute study session today for Java Inheritance Lab to stay ahead of deadline.",
+      "type": "study",
+      "read": true,
+      "scheduledFor": "2026-09-28T18:36:24.186Z",
+      "createdAt": "2026-09-28T18:36:24.186Z"
+    }
+  ],
+  "aiRecommendations": [
+    {
+      "id": "rec-1",
+      "userId": "user-vignesh",
+      "taskId": "task-1",
+      "title": "Urgent OS Assignment Focus",
+      "recommendation": "Start your study block with OS Process Synchronization right away. It has the highest priority score (88/100) and is due within 18 hours.",
+      "rationale": "Urgency weight (40%) and difficulty (4/5) make this the single most pressing item before tomorrow morning.",
+      "priorityLevel": "Critical",
+      "urgencySummary": "18 hours remaining",
+      "createdAt": "2026-09-29T04:36:24.186Z"
+    }
+  ]
+}
